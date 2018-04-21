@@ -1,0 +1,10 @@
+#Move between directories quickly
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+
+# Jump to projects
+alias workspace="cd ~/workspace"
+alias jaacoo="cd ~/workspace/jaacoo"
