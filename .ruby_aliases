@@ -1,1 +1,2 @@
 alias r='rails'
+alias rs="rails server"
