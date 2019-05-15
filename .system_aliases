@@ -7,9 +7,6 @@ alias ......='cd ../../../../../'
 
 # Jump to projects
 alias workspace="cd ~/workspace"
-alias jaacoo="cd ~/workspace/jaacoo"
-alias hotel="cd ~/workspace/hotel-tonight/hotelstonight"
-alias connectivity="cd ~/workspace/hotel-tonight/connectivity"
 
 #Colorize ls output
 alias ls="gls -F --color"
