@@ -1,4 +1,4 @@
-# Jump back n directories at a time
+Jump back n directories at a time
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
@@ -7,19 +7,53 @@ alias ......='cd ../../../../../'
 
 # Jump to projects
 alias workspace="cd ~/workspace"
+alias summercitycamp="cd ~/workspace/summercitycamp"
+alias petdoctors="cd ~/workspace/petdoctors"
+alias legia="cd ~/workspace/legia-szkolenia-trenerow"
+alias laub="cd ~/workspace/lauber/lauber-backend"
+alias lauf="cd ~/workspace/lauber/lauber-frontend"
+alias ironin="cd ~/workspace/ironin"
+alias lms="cd ~/workspace/ironin/lease_management_system"
+alias kipper="cd ~/workspace/ironin/kipper"
 
 #Colorize ls output
-alias ls="gls -F --color"
-
-#Add ssh public key superfast
-alias public-key="ssh-add ~/.ssh/id_rsa_hotel_tonight"
+alias ls="ls --color"
+LS_COLORS='di=34:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
+export LS_COLORS
 
 #Edit .vimrc
-alias editvim="vim ~/.vimrc"
+alias edit-vim="vim ~/.vimrc"
+
+#Edit .zshrc
+alias edit-zsh="vim ~/.zshrc"
 
 #Edit .bash_profile
-alias editbash="vim ~/.bash_profile"
+alias edit-bash="vim ~/.bash_profile"
 alias restartbash="source ~/.bash_profile"
 
 #Edit .gitconfig
-alias editgit="vim ~/.gitconfig"
+alias edit-git="vim ~/.gitconfig"
+
+#Edit system aliases
+alias edit-system-aliases="vim ~/.dotfiles/.system_aliases"
+alias glg="git lg"
+
+#Custom git aliases
+alias gb="git branch"
+alias ga="git add"
+alias gci="git ci"
+alias gcim="git ci -m"
+
+#Edit ruby aliases
+alias edit-ruby-aliases="vim ~/.dotfiles/.ruby_aliases"
+
+#Alias to awesome script hyphenize.sh
+alias hyphenize="hyphenize.sh"
+
+#Bundle exec
+alias bex="bundle exec"
+
+#Openconnect
+alias connect_vpn='sudo openconnect -b -u jedrzej.domanski --passwd-on-stdin pndev.acimacredit.com --pid-file=/var/run/openconnect.pid'
+
+alias disconnect_vpn='sudo kill `cat /var/run/openconnect.pid`'
