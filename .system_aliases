@@ -13,8 +13,6 @@ alias legia="cd ~/workspace/legia-szkolenia-trenerow"
 alias laub="cd ~/workspace/lauber/lauber-backend"
 alias lauf="cd ~/workspace/lauber/lauber-frontend"
 alias ironin="cd ~/workspace/ironin"
-alias lms="cd ~/workspace/ironin/lease_management_system"
-alias kipper="cd ~/workspace/ironin/kipper"
 
 #Colorize ls output
 alias ls="ls --color"
@@ -47,13 +45,7 @@ alias gcim="git ci -m"
 #Edit ruby aliases
 alias edit-ruby-aliases="vim ~/.dotfiles/.ruby_aliases"
 
-#Alias to awesome script hyphenize.sh
-alias hyphenize="hyphenize.sh"
-
 #Bundle exec
 alias bex="bundle exec"
-
-#Openconnect
-alias connect_vpn='sudo openconnect -b -u jedrzej.domanski --passwd-on-stdin pndev.acimacredit.com --pid-file=/var/run/openconnect.pid'
 
 alias disconnect_vpn='sudo kill `cat /var/run/openconnect.pid`'
