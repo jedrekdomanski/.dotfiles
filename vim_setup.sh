@@ -4,6 +4,4 @@ repos=(https://github.com/kien/ctrlp.vim https://github.com/Raimondi/delimitMate
 
 for repo in "${repos[@]}"; do git clone "$repo"; done
 
-sudo apt-get install -y vim curl
-
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
